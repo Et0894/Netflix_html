@@ -1,0 +1,53 @@
+body {
+    background-color: black;
+    background-size: 200%;
+    font-family: 'Open Sans', sans-serif;
+}
+nav img {
+    width: 200px;
+    margin-left: 30px;
+}
+.profilimg {
+    border: 2px solid transparent;
+    display: inline-block;
+    vertical-align: top;
+    margin: 17px
+}
+
+.profilimg img,
+.profil p{
+    transition: all .3s;
+    -webkit-transition: all .3s;
+    -moz-transition: all .3s;
+    -ms-transition: all .3s;
+    -o-transition: all .3s;
+}
+.profilimg:hover img{
+    border: 2px solid white;
+}   
+
+.profilimg:hover p{
+    color: white;
+}
+
+.profilimg p{
+    color: white;
+}
+
+.row {
+    margin-top: 150px;
+    margin: 0 10%;
+    display: inline-block;
+    vertical-align: top;
+}
+
+.content h1{
+    font-size: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+}
+
+.profil a {
+    text-decoration: none;
+}
